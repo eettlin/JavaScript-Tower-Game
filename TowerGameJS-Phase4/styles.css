@@ -1,0 +1,138 @@
+
+body{
+  background-color:black;
+}
+
+#wrapperDiv{
+  background-color: lightblue;
+  width:1020px;
+  height:850px;
+  border:solid black 2px;
+  margin:auto;
+  display: none;
+}
+#towerSliderInfoDiv{
+  background-color: green;
+  width; 1020px;
+  height: 100px;
+  float: left;
+  margin: auto;
+
+}
+#sliderDiv{
+  float: right;
+  position: fixed;
+  background-color: gray;
+}
+#infoDiv{
+  background-color: #381100;
+  width:1020px;
+  height:100px;
+  text-align:center;
+}
+
+#fastForward:hover{
+  background-color: #6666ff;
+}
+
+#pauseButton:hover{
+  background-color: #6666ff;
+}
+
+.loader {
+  margin: auto;
+  margin-top: 25%;
+    border: 16px solid black; /* Light grey */
+    border-top: 16px solid grey; /* Blue */
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+#menuDiv{
+  background-color: #990022;
+  width:120px;
+  height:750px;
+  float:left;
+}
+
+#canDiv{
+  background-color: lightgreen;
+  width:900px;
+  height:750px;
+  float:left;
+}
+
+#pauseButton{
+  background-color: #999999;
+}
+
+#pauseButton:hover{
+  background-color:#6666ff;
+}
+
+.infoTileDiv{
+  background-color: white;
+  width:80px;
+  height:60px;
+  border-radius:50%;
+  float:left;
+  margin-left:4%;
+  margin-top:10px;
+  padding-top:15px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14pt;
+}
+
+.menuTileDiv{
+  background-color: #DDD;
+  background-image: url("wframe.png");
+  width:80px;
+  height:80px;
+  margin-top:38px;
+  margin-left:10px;
+  float:left;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14pt;
+}
+#firstPanel{
+
+}
+#towImgDiv0,#towImgDiv1, #towImgDiv2, #towImgDiv3,#towImgDiv4, #towImgDiv5{
+  border:solid black 2px;
+  border-radius: 5px;
+  background-color: #DDD;
+  margin-top: 30px;
+  margin-left: 8px;
+  margin-right: 8px;
+}
+ #panelStart{
+   position: absolute;
+    left: 80%;
+    margin-left: 150px;
+ }
+ #panelQuit{
+   position: absolute;
+    left: 40%;
+    margin-left: -50px;
+ }
+ #panelInstructions{
+   position: absolute;
+    margin: auto;
+ }
+
+ button {
+     color:inherit;
+     border:none;
+     padding:0!important;
+     font: inherit;
+     /*border is optional*/
+     border-bottom:1px solid #444;
+     cursor: pointer;
+}
